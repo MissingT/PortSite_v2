@@ -15,32 +15,40 @@
 <body>
 
 
-    <nav class="navBar">
-        <div class="logo">MATHEW <br>FIGUEROA</div>
-    <ul class="navButtons">
-        <li class="tab" id="leftMostnav"><a class="clickableSize" href="./work.html">Work</a></li>
-        <li class="tab"><a class="clickableSize" href="./index.html">About</a></li>
-        <li class="tab" id="rightMostnav"><a class="clickableSize" href="#">Contact</a></li>
-    </ul>
-    </nav>
-    
-        <div class="nsaHeader">
-            <h1 class="nsaResponsiveredesign">NSA Responsive Redesign</h1>
-            <button id="desktopButt">Desktop</button>
-            <button id="mobileButt">Mobile</button>
-            <iframe style="margin-top: 30px;" class="nsaLaptop" src="https://player.vimeo.com/video/577665092?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1000" height="563" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="NSAMacMP4_1080.mp4"></iframe>
-            <iframe style="margin-top: 30px;" class="nsaMobile" src="https://player.vimeo.com/video/577665288?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1000" height="563" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="NSAMobile_1080.mp4"></iframe>
+    <!-- NAV BAR -->
+    <div class="navContainer">   
+        <ul class="navButtons">
+            <a href="index.html"><li class="tab" id="mathewButton">Mathew Figueroa</li></a>
+            <a href="./work.html"><li class="tab workNav">Work</li></a>
+            <a href="./contact.html"><li class="tab contactNav">Contact</li></a>
+        </ul>   
+    </div>
 
-        </div>
+    <h1 style="text-align: center;" class="header xlarge pageHeader">NSA Responsive Redesign</h1>
+    <div class="nsaHeader">
+        <button id="desktopButt" class="responsiveButton"><i class="fas fa-desktop"></i></button>
+        <button id="mobileButt" class="responsiveButton"><i class="fas fa-mobile-alt"></i></button>
+        <iframe style="margin-top: 30px;" class="laptop" src="https://player.vimeo.com/video/577665092?autoplay=1" width="1600" height="563" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="NSAMacMP4_1080.mp4"></iframe>
+        <iframe style="margin-top: 30px; display: none;" class="mobile" src="https://player.vimeo.com/video/577665288?autoplay=1" width="1600" height="563" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="NSAMobile_1080.mp4"></iframe>
+
+    </div>
+
 <div class="workInfocontainer1">
         <div class="workInfocontainer2">
-            <h1 class="overview">Overview</h1>
-            <p class="workDetails">The NSA leads the U.S. Government in cryptology which encompasses both cybersecurity and signals intelligence. Their site is loaded with content and information hiearchy that leaves to be desired. My main goal when redesign the site was to apply a revamped hiearchy of information on both the desktop and mobile versions of the site. With this solution applied, users who are looking to get involved with or get more information from the NSA can do so easily.</p>
-                <div class="buttonContainer">
-                    <button class="demoButton">Case Study&nbsp&nbsp<i class="far fa-file-pdf"></i></button>
-                    <button class="demoButton">Demo Desktop&nbsp&nbsp<i class="fas fa-desktop"></i></button>
-                    <button class="demoButton"><a href="">Mobile&nbsp&nbsp<i class="fas fa-mobile-alt"></i></a></button>
-                </div>
+            <div class="overviewContainer">
+                <h1 class="overview">Overview</h1>
+                <p class="workDetails">The NSA leads the U.S. Government in cryptology which encompasses both cybersecurity and signals intelligence.</p>
+                <br>
+                <h1 class="overview">Problem</h1>
+                <p class="workDetails">Their site is loaded with content and an unorganized information hierarchy that makes it hard to navigate the site. The visual presentation of the site also does not make it seem related with the government.</p>
+                <br>
+                <h1 class="overview">Solution</h1>
+                <p class="workDetails">My main goal when redesigning the site was to simplify the information hierarchy on both the desktop and mobile versions for easier navigation. I also updated the site's visual design with their brand guidelines in order to give our user's more confidence in the legitimacy of the site.</p>
+                <br>
+            </div>   
+            <div class="buttonContainer">
+                <a href="./images/NSACaseStudy.pdf" target="_blank"><button class="demoButton responsiveButton">Case Study&nbsp&nbsp<i class="far fa-file-pdf"></i></button></a>
+            </div>
         </div>
     </div>
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>

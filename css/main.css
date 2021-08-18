@@ -1,3 +1,4 @@
+/* BODY and HTML CSS */
 body {
   background-image: url(../images/dot-grid.png);
   cursor: url(../images/cursor.png), auto;
@@ -19,6 +20,8 @@ a:hover {
   cursor: url(../images/cursor_hover.png), auto;
 }
 
+/* NAV CSS */
+
 .navContainer {
   display: flex;
   justify-content: center;
@@ -32,6 +35,8 @@ a:hover {
 text-align: center;
 margin-top: 0px;
 padding: 0px;
+transition: ease 0.3s;
+
 }
 
 .tab {
@@ -49,6 +54,11 @@ padding: 0px;
   transition: 0.3s ease; 
   width: auto;
 } 
+
+.invertHover:hover{
+  background-color: white !important;
+  color: navy !important;
+}
 
 #mathewButton {
   background-color: navy;
@@ -69,6 +79,8 @@ padding: 0px;
   border-radius: 0px 0px 0px 20px;
   border-right: 3px solid white;
   font-weight: 700;
+  transition: ease 0.3s;
+
 }
 
 #workButton {
@@ -79,12 +91,19 @@ padding: 0px;
   font-weight: 700;
 }
 
+.workNav {
+  transition: ease 0.3s;
+
+}
+
 .workNav:hover {
   background-color: navy;
   color: whitesmoke;
   border-radius: 0px 0px 0px 0px;
   border-left: 1px solid white;
   font-weight: 700;
+  transition: ease 0.3s;
+
 }
 
 #contactButton {
@@ -95,13 +114,22 @@ padding: 0px;
   font-weight: 700;
 }
 
+.contactNav {
+  transition: ease 0.3s;
+
+}
+
 .contactNav:hover {
   background-color: navy;
   color: whitesmoke;
   border-radius: 0px 0px 20px 0px;
   border-left: 1px solid white;
   font-weight: 700;
+  transition: ease 0.3s;
+
 }
+
+/* ABOUT ME CSS */
 
 .aboutContainer {
   display: flex;
@@ -146,6 +174,8 @@ img {
   height:fit-content;
 }
 
+/* FONT SIZE CSS */
+
 .medium {
   font-size: 24px;
 }
@@ -153,6 +183,8 @@ img {
 .xlarge {
   font-size: 48px;
 }
+
+/* WORK PAGE CSS */
 
 .work {
   width: 320px;
@@ -227,6 +259,8 @@ section {
   margin: -10px 10px 10px 10px; 
 }
 
+/* CONTACT PAGE CSS */
+
 .email {
   display: block;
   margin: auto;
@@ -286,9 +320,72 @@ border-radius: 0px 0px 0px 20px;
   border-radius: 0px 0px 0px 20px;
 }
 
+/* PROJECT PAGES CSS */
+
+.responsiveButton {
+  width: 100px;
+height: 50px;
+border: 2px solid navy;
+background-color: white;
+color: navy;
+font-family: termina,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12pt;
+  margin:0px 10px;  
+  transition: 0.3s ease;
+}
+
+.responsiveButton:hover {
+  transition: ease 0.3s;
+  transform: translate(-5px, -5px);
+  box-shadow: 5px 5px 15px rgb(196, 196, 196);
+  background-color: navy;
+  color: white;
+  font-weight: 700;
+  border-radius: 0px 0px 0px 20px;
+}
+
+.demoButton {
+  width: 200px;
+}
+
+.nsaHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px 170px;
+  margin-top: 40px;
+  color: navy;
+}
+
+.workInfocontainer1 {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.workInfocontainer2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 800px;
+  height: auto;
+  color: navy;
+  font-family:;
+  font-family: termina,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 42px;
+}
+
+/* MOBILE MEDIA QUERY */
 
 @media screen and (orientation: portrait) {
 
+/* NAV MOBILE CSS */
 
   .navContainer {
     width: 100vw;
@@ -349,6 +446,8 @@ border-radius: 0px 0px 0px 20px;
     font-weight: 700;
   }
 
+/* ABOUT ME MOBILE CSS */
+
 .aboutContainer {
   display: flex;
   flex-direction: column;
@@ -379,6 +478,8 @@ img {
   width: 300px;
 }
 
+/* FONT SIZE CSS */
+
 .xlarge {
   font-size: 26px;
 }
@@ -386,6 +487,8 @@ img {
 .medium {
   font-size: 18px;
 }
+
+/* WORK AND CONTACT MOBILE CSS */
 
 .pageHeader {
   font-size: 48px;
@@ -412,4 +515,40 @@ section {
   width: 280px;
 }
 
+/* PROJECT PAGES MOBILE CSS */
+
+.responsiveButton {
+  width: 200px;
+  height:100px;
+  font-size: 48px;
+  margin: 0px 40px;
+}
+
+.laptop {
+  margin-top: 0px !important;
+}
+
+.mobile {
+  margin-top: 0px !important;
+}
+
+.overviewContainer {
+  text-align: center;
+  line-height: 80px;
+  margin-top: -100px;
+
+}
+
+.workInfocontainer2 {
+  align-items: center;
+}
+
+.demoButton {
+  width: inherit;
+  padding: 10px 40px;
+  margin-top: 30px;
+}
+
+
+/* END OF MEDIA QUERY BRACKET */
 }

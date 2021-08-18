@@ -8,12 +8,12 @@ $(".logo").on("click", function(){
 
 $(document).ready(function(){
 	$("#desktopButt").click(function(){
-    	$(".nsaMobile").hide()
-    $(".nsaLaptop").show();
+    	$(".mobile").hide()
+    $(".laptop").show();
     });
   $("#mobileButt").click(function(){
-    $(".nsaMobile").show().css("display", "block")
-    $(".nsaLaptop").hide();
+    $(".mobile").show().css("display", "block")
+    $(".laptop").hide();
   });
 });
 
