@@ -1,0 +1,441 @@
+body {
+    background-image: url(../images/dot-grid.png);
+    cursor: url(../images/cursor.png), auto;
+  }
+  .navBar {
+      display: flex;
+      margin: -10px 0px 0px -28px;
+      width: 700px;
+  
+  }
+
+  .logo {
+      font-family: termina,sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 21px;
+      padding: 40px 40px;
+      cursor: url(../images/cursor_hover.png), auto;
+      border-right: navy 2px solid;
+      border-left: navy 2px solid;
+      border-bottom: navy 2px solid;
+      color: navy;
+      line-height: 90%;
+      margin-left: 100px;
+      margin-bottom: -2px;
+      margin-right: 2px;
+      background-color: white;
+      transition: 0.3s ease;
+  
+  }
+  
+  #middleMostnav {
+    background-color: navy;
+    color: white;
+    border-left: white 1px  solid ;
+    border-right: white 1px  solid ;
+    z-index: 1;
+  }
+  
+  .sideBlue {
+    height: 100%;
+    width: 80px;
+    margin-left: -8px;
+    position: fixed;
+    border-right: navy 2px solid;
+    background-color: white;
+  
+  }
+  
+  .navButtons {
+      list-style: none;
+      font-size: 16px;
+      display: flex;
+      justify-content: flex-start; 
+      align-items: flex-end;  
+      margin-top: -40px;
+      margin-bottom: -2px;
+      margin-left: -42px;
+      cursor: url(../images/cursor_hover.png), auto;
+     
+  
+  }
+  
+  
+  .tab {
+      padding: 45px 40px;
+      font-family: termina,sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      font-style: normal;
+      border-right: navy 2px solid;
+      border-bottom: navy 2px solid;
+      border-left: navy 2px solid;
+      margin-left: -2px;
+      transition: 0.3s ease;
+  
+  }
+  
+  #leftMostnav {
+    background-color: white;
+    color: navy;
+  }
+
+  
+  #rightMostnav {
+    padding: 45px 40px;
+      font-family: termina,sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      font-style: normal;
+      color: navy;
+      border-right: navy 2px solid;
+      border-bottom: navy 2px solid;
+      border-left: navy 2px solid;
+      margin-left: -2px;
+  }
+  
+
+  
+  section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+     
+  }
+  
+  .hey1 {
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 80px;
+
+  }
+
+  #bottomHey {
+    display: flex;
+    margin: 100px 200px 0 280px;
+    align-items: flex-start;
+    justify-content: center;
+    border: 1px solid navy;
+  }
+
+  h1 {
+    font-family: termina,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32pt;
+    margin-left: 10px;
+    color: navy;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .hey2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+  }
+  
+.iLike {
+    list-style: none;
+    width: 50%;
+    font-family: termina,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18pt;
+    color: navy;
+    line-height: 64px;
+}
+
+.contact {
+    list-style: none;
+    font-family: termina,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18pt;
+    color: navy;
+    line-height: 64px;
+}
+
+.hey3 {
+  width: 400px;
+}
+
+a {
+  text-decoration: none;
+  color: navy;
+}
+  @media only screen and (max-width: 600px) {
+
+
+    
+.sideBlue {
+  display: none;
+}
+
+    .navBar {
+      display: initial;
+      margin: 0px;
+      width: initial;
+  }
+
+  .logo {
+    font-family: termina,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    padding: 40px 0px;
+    cursor: url(../images/cursor_hover.png), auto;
+    border-right: navy 2px solid;
+    border-left: navy 2px solid;
+    border-bottom: navy 2px solid;
+    color: navy;
+    line-height: 90%;
+    margin-left: -14px;
+    margin-bottom: -2px;
+    margin-top: -10px;
+    width: 598px;
+    text-align: center;
+    background-color: white;
+    transition: 0.3s ease;
+}
+
+.navButtons {
+  align-content: center;
+  list-style: none;
+  font-size: 32px;
+  display: flex;
+  /* width: 100px; */
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: flex-start; */
+  /* margin-top: -40px; */
+  /* margin-bottom: -2px; */
+  /* margin-left: -50px; */
+  width: 600px;
+  text-align: center;
+  margin-top: 2px;
+  margin-left: -52px;
+  cursor: url(../images/cursor_hover.png), auto;
+}
+
+.tab {
+  padding: 40px 0px;
+  font-family: termina,sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  font-style: normal;
+  color: navy;
+  border-right: navy 2px solid;
+  border-bottom: navy 2px solid;
+  border-left: navy 2px solid;
+  /* margin-left: -2px; */
+  /* background-color: white; */
+  transition: 0.3s ease;
+  width: 600px;
+}
+
+.tab:active {
+  background-color: navy;
+  color: whitesmoke;
+  border-radius: 0px 0px 0px 0px;
+ 
+}
+
+#rightMostnav {
+  padding: 45px 0px;
+  /* text-align: center; */
+  font-family: termina,sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  font-style: normal;
+  color: navy;
+  border-right: navy 2px solid;
+  border-bottom: navy 2px solid;
+  border-left: navy 2px solid;
+  /* margin-left: -2px; */
+  width: 600px;
+}
+
+#rightMostnav:active {
+  background-color: navy;
+  color: whitesmoke;
+  transition: 0.3s ease;
+  border-radius: 0px 0px 0px 0px; 
+  border-top: 2px white solid;
+
+}
+
+#leftMostnav:active {
+  background-color: navy;
+  color: whitesmoke;
+  transition: 0.3s ease;
+  border-radius: 0px 0px 0px 0px; 
+  border-bottom: 2px white solid;
+
+}
+
+
+
+.logo:active {
+  background-color: navy;
+  color: whitesmoke;
+  transition: 0.3s ease;
+  border-radius: 0px 0px 0px 0px;
+}
+  
+.hey1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 80px;
+}
+
+h1 {
+  font-family: termina,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32pt;
+  margin-left: 10px;
+  color: navy;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+}
+
+
+p {
+  color: navy;
+  font-family: houschka-pro,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 32px;
+  margin: -10px 10px 10px 10px;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+#bottomHey {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid navy;
+}
+
+.hey2 {
+  display: flex;
+  margin-left: 40px;
+  flex-direction: column;
+}
+
+.iLike {
+  list-style: none;
+  font-family: termina,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18pt;
+  color: navy;
+  line-height: 64px;
+  width: 320px;
+}
+
+.hey3 {
+  margin-left: 40px;
+}
+
+.contact {
+    list-style: none;
+    font-family: termina,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18pt;
+    color: navy;
+    line-height: 64px;
+}
+
+}
+
+@media only screen and (min-width: 992px) {
+
+  .logo:hover {
+    background-color: navy;
+    color: whitesmoke;
+    transition: 0.3s ease;
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  .tab:hover {
+    background-color: navy;
+    color: whitesmoke;
+    border-radius: 0px 0px 0px 0px;
+    
+  }
+
+  #rightMostnav:hover {
+    background-color: navy;
+    color: whitesmoke;
+    transition: 0.3s ease;
+    border-radius: 0px 0px 50px 0px;
+  }
+
+  #leftMostnav:hover {
+    background-color: navy;
+    color: whitesmoke;
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  .workModal:hover {
+    transform: translateY(-20px) scale(105%);
+    box-shadow: 5px 5px 15px rgb(196, 196, 196);
+    background-color: navy;
+    border-radius: 0px 0px 0px 0px;
+    border: 3px solid navy;
+  
+  }
+  
+  .workModal:hover >img {
+    border-radius: 0px 0px 0px 0px;
+  
+  }
+  .workModal:hover > h1, p {
+    color: white;
+    
+  }
+  
+  .workModal:hover > p {
+    color: white;
+  }
+  
+  p {
+    color: navy;
+    font-family: houschka-pro,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 32px;
+    margin: -20px 10px 10px 10px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: navy;
+    cursor: url(../images/cursor_hover.png), auto;
+  }
+  .contactList:hover {
+    transition: 0.3 ease;
+    font-weight: 700;
+    cursor: url(../images/cursor_hover.png), auto;
+  }
+}
+

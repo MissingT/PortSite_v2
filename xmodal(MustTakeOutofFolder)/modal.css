@@ -1,0 +1,42 @@
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.workModal {
+    border: red solid 1px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 100px 10px 0px 0px;
+    transition: 0.3s ease;
+    background-color: white;
+}
+
+.work {
+    width: 400px;
+    border-radius: 100px 10px 0px 0px;
+
+}
+
+.workModal:hover {
+    transform: translateY(-20px) scale(105%);
+    box-shadow: 1px 1px 20px rgb(50, 50, 87);
+    background-color: navy;
+}
+    
+.workModal:hover > h1, p {
+    color: white;
+}
+
+
+h1 {
+    border: navy 1px solid;
+}
+
+p {
+    border: navy 1px solid;
+}

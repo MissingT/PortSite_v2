@@ -1,0 +1,234 @@
+body {
+  background-image: url(../images/dot-grid.png);
+  cursor: url(../images/cursor.png), auto;
+}
+.navBar {
+    display: flex;
+    margin: -10px 0px 0px -28px;
+    width: 700px;
+
+}
+
+.logo {
+    font-family: termina,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 21px;
+    padding: 40px 40px;
+    cursor: url(../images/cursor_hover.png), auto;
+    border-right: navy 2px solid;
+    border-left: navy 2px solid;
+    border-bottom: navy 2px solid;
+    color: navy;
+    line-height: 90%;
+    margin-left: 100px;
+    margin-bottom: -2px;
+    margin-right: 2px;
+    background-color: white;
+    transition: 0.3s ease;
+
+}
+
+.logo:hover {
+    background-color: navy;
+    color: whitesmoke;
+    transition: 0.3s ease;
+    border-radius: 0px 0px 0px 50px;
+
+}
+
+.sideBlue {
+  height: 100%;
+  width: 80px;
+  margin-left: -8px;
+  position: fixed;
+  border-right: navy 2px solid;
+  background-color: white;
+
+}
+
+.navButtons {
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-end;  
+    margin-top: -40px;
+    margin-bottom: -2px;
+    margin-left: -42px;
+    cursor: url(../images/cursor_hover.png), auto;
+   
+
+}
+
+
+.tab {
+    padding: 45px 40px;
+    font-family: termina,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    color: navy;
+    border-right: navy 2px solid;
+    border-bottom: navy 2px solid;
+    border-left: navy 2px solid;
+    margin-left: -2px;
+    background-color: white;
+    transition: 0.3s ease;
+
+
+
+
+}
+
+.tab:hover {
+  background-color: navy;
+  color: whitesmoke;
+  border-radius: 0px 0px 0px 0px;
+  
+}
+
+#rightMostnav {
+  padding: 45px 40px;
+    font-family: termina,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    color: navy;
+    border-right: navy 2px solid;
+    border-bottom: navy 2px solid;
+    border-left: navy 2px solid;
+    margin-left: -2px;
+}
+
+#rightMostnav:hover {
+  background-color: navy;
+  color: whitesmoke;
+  transition: 0.3s ease;
+  border-radius: 0px 0px 50px 0px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+   
+}
+
+
+.workModal {
+  border: navy solid 1px;
+  width: 320px;
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items:flex-start;
+  transition: 0.3s ease;
+  background-color: white;
+  margin-right: 100px;
+  cursor: url(../images/cursor_hover.png), auto;
+
+}
+
+#noMargin {
+ margin-right: 0px;
+
+
+}
+
+.work {
+  width: 320px;
+  height: 500px;
+  object-fit: cover;
+  object-position: 50% 0%;
+  border-bottom: navy 1px solid;
+  background-color: navy;
+  vertical-align: bottom;
+}
+
+.workModal:hover {
+  transform: translateY(-20px) scale(105%);
+  box-shadow: 5px 5px 15px rgb(196, 196, 196);
+  background-color: navy;
+  border-radius: 0px 0px 0px 0px;
+  border: 3px solid navy;
+
+}
+
+.workModal:hover >img {
+  border-radius: 0px 0px 0px 0px;
+
+}
+.workModal:hover > h1, p {
+  color: white;
+  
+}
+
+.workModal:hover > p {
+  color: white;
+}
+
+h1 {
+  font-family: termina,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16pt;
+  margin-left: 10px;
+  color: navy;
+  
+
+}
+
+p {
+  color: navy;
+  font-family: houschka-pro,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  margin: -10px 10px 10px 10px;
+
+}
+
+.about {
+  font-family: termina,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  margin-right: -8px;
+  text-align: center;
+}
+
+.aboutTitle {
+  color: navy;
+
+}
+
+.aboutTitle:hover {
+
+}
+
+
+#aboutInfo {
+  color: navy;
+  width: 700px;
+  font-size: 24px;
+}
+
+#aboutImage {
+    width: 34%;
+}
+
+#aboutText {
+  text-align: left;
+  margin-top: -58px;
+  width: ;
+}
+
+h2 {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
