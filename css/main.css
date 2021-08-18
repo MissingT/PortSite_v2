@@ -266,7 +266,7 @@ border-radius: 0px 0px 0px 20px;
   color: white;
   background-color: navy;
   border: 1px solid whitesmoke;
-  display: flex;
+  display: flex !important;
   justify-content: center;
   align-items: center;
   width: 100px;
