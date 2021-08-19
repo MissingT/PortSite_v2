@@ -141,9 +141,24 @@ transition: ease 0.3s;
 }
 
 .imageHolder {
-  width: 600px;
-  height: 600px;
-  background-color: navy;
+  background: url(../images/Portrait.png);
+  width: 687px;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: 35% -10%; 
+  background-size: 114%;
+  transition: 0.1s ease;
+}
+
+.imageHolder:hover {
+  background: url(../images/PortraitGif.gif);
+  width: 687px;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: 35% -10%; 
+  background-size: 114%;
+  transition: 0.1s ease;
+
 }
 
 img {
@@ -153,7 +168,8 @@ img {
 }
 
 .textHolder {
-  padding-left: 40px;
+margin-left: -127px;
+margin-bottom: 130px;
 }
 
 .header {
@@ -458,9 +474,23 @@ font-family: termina,sans-serif;
 }
 
 .imageHolder {
-  background-color: navy;
-  width: 300px;
+  width: 375px;
   height: 400px;
+  background-repeat: no-repeat;
+  background-position: inherit; 
+  transition: 0.1s ease;
+
+}
+
+.imageHolder:hover {
+  background: url(../images/PortraitGif.gif);
+  width: 375px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 114%;
+  background-position: inherit; 
+  transition: 0.1s ease;
+
 }
 
 img {
@@ -469,9 +499,11 @@ img {
 }
 
 .textHolder {
-  padding-left: 0px;
   text-align: center;
   width: 300px;
+  margin-right: -27%;
+margin-bottom: 100px;
+
 }
 
 .aboutPara {
