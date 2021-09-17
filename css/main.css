@@ -376,6 +376,18 @@ font-family: termina,sans-serif;
   color: navy;
 }
 
+.caseStudyImage {
+  width: 1300px;
+}
+
+.caseStudyContainer {
+  display: flex;
+    width: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .workInfocontainer1 {
   margin-top: 60px;
   display: flex;
@@ -397,6 +409,27 @@ font-family: termina,sans-serif;
   line-height: 42px;
 }
 
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: navy; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  font-family: termina, sans-serif;
+  font-weight: 700;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
 /* MOBILE MEDIA QUERY */
 
 @media screen and (orientation: portrait) {
@@ -497,6 +530,8 @@ img {
   width: inherit;
   height: inherit;
 }
+
+
 
 .textHolder {
   text-align: center;
