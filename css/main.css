@@ -339,7 +339,7 @@ border-radius: 0px 0px 0px 20px;
 /* PROJECT PAGES CSS */
 
 .responsiveButton {
-  width: 100px;
+  width: 200px;
 height: 50px;
 border: 2px solid navy;
 background-color: white;
@@ -376,6 +376,7 @@ font-family: termina,sans-serif;
   color: navy;
 }
 
+/* CASE STUDY */
 .caseStudyImage {
   width: 1300px;
 }
@@ -409,6 +410,8 @@ font-family: termina,sans-serif;
   line-height: 42px;
 }
 
+
+/* SCROLL TO TOP */
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -429,6 +432,10 @@ font-family: termina,sans-serif;
 
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.buttonContainer {
+  display: none;
 }
 /* MOBILE MEDIA QUERY */
 
@@ -585,10 +592,11 @@ section {
 /* PROJECT PAGES MOBILE CSS */
 
 .responsiveButton {
-  width: 200px;
-  height:100px;
+  width: 500px;
+  padding: 0pc 50px;
+  height: 100px;
   font-size: 48px;
-  margin: 0px 40px;
+  margin: 20px 40px;
 }
 
 .laptop {
@@ -616,6 +624,22 @@ section {
   margin-top: 30px;
 }
 
+/* CASE STUDY CSS MOBILE */
+.caseStudyContainer {
+  display: none;
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+#myBtn {
+  width: 300px;
+  height: 100px;
+  right: 34vw;
+}
 
 /* END OF MEDIA QUERY BRACKET */
 }
