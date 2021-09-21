@@ -150,7 +150,16 @@ transition: ease 0.3s;
   transition: 0.1s ease;
 }
 
+.imageHolder:hover {
+  background: url(../images/PortraitGif.gif);
+  width: 687px;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: 35% -10%; 
+  background-size: 114%;
+  transition: 0.1s ease;
 
+}
 
 img {
   width: 100%;
