@@ -378,7 +378,7 @@ font-family: termina,sans-serif;
 
 /* CASE STUDY */
 .caseStudyImage {
-  width: 1300px;
+  width: 1000px;
 }
 
 .caseStudyContainer {
@@ -611,6 +611,7 @@ section {
   text-align: center;
   line-height: 80px;
   margin-top: -100px;
+  display: block;
 
 }
 
