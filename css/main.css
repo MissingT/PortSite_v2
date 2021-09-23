@@ -141,21 +141,21 @@ transition: ease 0.3s;
 }
 
 .imageHolder {
-  background: url(../images/Portrait.png);
+  background: url(../images/Portrait1.png);
   width: 687px;
   height: 800px;
   background-repeat: no-repeat;
-  background-position: 35% -10%; 
+  background-position: 35% 0%; 
   background-size: 114%;
   transition: 0.1s ease;
 }
 
 .imageHolder:hover {
-  background: url(../images/PortraitGif.gif);
+  background: url(../images/PortraitGif1.gif);
   width: 687px;
   height: 800px;
   background-repeat: no-repeat;
-  background-position: 35% -10%; 
+  background-position: 35% 0%; 
   background-size: 114%;
   transition: 0.1s ease;
 
@@ -168,7 +168,7 @@ img {
 }
 
 .textHolder {
-margin-left: -127px;
+margin-left: -40px;
 margin-bottom: 130px;
 }
 
@@ -523,7 +523,7 @@ font-family: termina,sans-serif;
 }
 
 .imageHolder:hover {
-  background: url(../images/PortraitGif.gif);
+  background: url(../images/PortraitGif1.gif);
   width: 375px;
   height: 400px;
   background-repeat: no-repeat;
@@ -544,6 +544,7 @@ img {
   text-align: center;
   width: 300px;
   margin-right: -27%;
+  margin-left: -127px;
 margin-bottom: 100px;
 
 }
